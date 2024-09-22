@@ -1,0 +1,44 @@
+.language-hobbies{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 85px;
+}
+
+.language-hobbies-container{
+    margin-top: 90px;
+}
+
+.language-list{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 36px;
+    margin-top: 50px;
+}
+
+.dot{
+    width: 12px;
+height: 12px;
+border-radius: 6px;
+background-color: #333333;
+}
+
+.language-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 35px;
+}
+
+.language-list-item-name{
+    font-size: 24px;
+text-transform: uppercase;
+color: #333333;
+font-weight: bold;
+}
+
+.hobbies-list{
+    margin-top: 50px;
+}

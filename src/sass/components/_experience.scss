@@ -1,0 +1,47 @@
+.experience-container{
+    margin-top: 120px;
+    width: 816px;
+}
+
+.experience-title-container{
+    margin-bottom: 50px;
+}
+
+.experience-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.experience-item-name{
+font-size: 28px;
+text-transform: uppercase;
+color: #333333;
+font-weight: 800;
+}
+
+.experience-item-date{
+font-size: 24px;
+color: #333333;
+font-weight: bold;
+text-align: right;
+}
+
+.experience-item-location{
+font-size: 24px;
+color: #333333;
+font-weight: 500;
+font-style: italic;
+margin-bottom: 33px;
+}
+
+.experience-item-text{
+width: 660px;
+height: 56px;
+font-size: 22px;
+line-height: 34px;
+color: #333333;
+margin-bottom: 58px;
+}

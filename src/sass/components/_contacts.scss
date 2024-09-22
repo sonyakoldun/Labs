@@ -1,0 +1,28 @@
+.contact-container{
+    margin-top: 362px;
+    padding-left: 58px;
+}
+
+.right-side-title{
+    font-size: 42px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+}
+
+.contact-list{
+    margin-top: 30px;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-bottom: 11px;
+}
+
+.contact-item-text{
+    font-size: 24px;
+line-height: 31px;
+color: #ffffff;
+}
