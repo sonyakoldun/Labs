@@ -1,9 +1,13 @@
 .skills-container{
-    margin-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    flex-direction: column;
 }
 
 .skills-title-container{
-    margin-bottom: 50px;
+    justify-content: flex-start;
+    flex-basis: min-content;
 }
 
 .skils-item{

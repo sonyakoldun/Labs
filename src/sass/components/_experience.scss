@@ -3,8 +3,9 @@
     width: 816px;
 }
 
-.experience-title-container{
-    margin-bottom: 50px;
+.experience-title-container {
+    justify-content: flex-start;
+    flex-basis: min-content;
 }
 
 .experience-item-container{

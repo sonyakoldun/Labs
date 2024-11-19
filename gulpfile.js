@@ -35,6 +35,18 @@ gulp.task('svg', function(){
     .pipe(gulp.dest(`./dist/svg`));
 })
 
+gulp.task('json', function () {
+    return gulp.src('./src/js/data.json') // Adjust path if needed
+      .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('js', function () {
+    return gulp
+      .src('./src/js/index.js') // Only the entry point is needed
+      .pipe(webpack(require('./webpack.config.js')))
+      .pipe(gulp.dest('./dist/js'));
+});
+
 const serverSettings = {
     livereload: true,
     open: true,
@@ -44,28 +56,25 @@ gulp.task('start', function(){
     return gulp.src('./dist/').pipe(server(serverSettings))
 })
 
-gulp.task('clean', function(done){
+gulp.task('clean', function (done) {
     if(fs.existsSync('./dist/')){
-        return gulp.src('./dist/').pipe(clean())
+        return gulp
+          .src(['./dist/*', '!./dist/js'], { read: false, allowEmpty: true })
+          .pipe(clean())
     }
-
     done();
-})
+});
+
 
 gulp.task('watch', function(){
     gulp.watch('./src/sass/**/*.scss', gulp.parallel('sass'));
     gulp.watch('./src/**/*.html', gulp.parallel('html'));
     gulp.watch('./src/img/**/*', gulp.parallel('img'));
-})
-
-gulp.task('js', function(){
-    return gulp.src('./src/js/*.js')
-        .pipe(webpack(require('./webpack.config.js')))
-        .pipe(gulp.dest('./dist/js'))
+    gulp.watch('./src/js/*', gulp.parallel('js'));
 })
 
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('html', 'sass', 'img', 'svg'),
+    gulp.parallel('html', 'sass', 'img', 'svg', 'json', 'js'),
     gulp.parallel('start', 'watch'),
 ))

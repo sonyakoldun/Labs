@@ -1,313 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 <body>
-    <header>
-    <section class="about-section">
-        <div class="container about-container">
-            <div class="title-container">
-                <div class="icon-container">
-                    <svg width="28" height="32" class="icon">
-                        <use href="./svg/symbol-defs.svg#icon-about"></use>
-                    </svg>
-                </div>
-                <h2 class="title about-title">About me</h2>
-                <div>
-                    <h1 class="main-title">Noel Taylor</h1>
-                    <p class="main-title-subtext">Graphic & Web Designer</p>
-                </div>
-            </div>
-            <p class="about-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+<header>
+  <section class="about-section">
+    <div class="container about-container">
+      <div class="title-container">
+        <div class="icon-container">
+          <svg width="32" height="32" class="icon">
+            <use href="./svg/symbol-defs.svg#icon-about"></use>
+          </svg>
+          <h2 class="title about-title">About me</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000"
+               class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                  d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg>
         </div>
-    </section>
+        <div>
+          <h1 class="main-title"></h1>
+          <p class="main-title-subtext">Graphic & Web Designer</p>
+        </div>
+      </div>
+      <p class="about-text to_hide">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+        type. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.</p>
+    </div>
+  </section>
 </header>
 <main>
-    <div class="left-side">
-        <section>
-                <div class="container experience-container">
-                    <div class="title-container experience-title-container">
-                        <div class="icon-container">
-                            <svg width="30" height="26" class="icon">
-                                <use href="./svg/symbol-defs.svg#icon-experience"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title">Job Experience</h2>
-                    </div>
-                    <ul>
-                        <li>
-                            <div class="experience-item-container">
-                                <p class="experience-item-name">Senior Web Designer</p>
-                                <p  class="experience-item-date">2020 -Present</p>
-                            </div>
-                            <p class="experience-item-location">Creative Agency / Chicago</p>
-                            <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s, when unknown printer took a galley of type.</p>
-                        </li>
-                        <li>
-                            <div class="experience-item-container">
-                                <p class="experience-item-name">Graphic Designer</p>
-                                <p class="experience-item-date">2015 -2020</p>
-                            </div>
-                            <p class="experience-item-location">Creative Market / Chicago</p>
-                            <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s, when unknown printer took a galley of type.</p>
-                        </li>
-                        <li>
-                            <div class="experience-item-container">
-                                <p class="experience-item-name">Marketing Manager</p>
-                                <p class="experience-item-date">2013 -2015</p>
-                            </div>
-                            <p class="experience-item-location">Manufacturing Agency / NJ</p>
-                            <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s, when unknown printer took a galley of type.</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <div class="container skills-container">
-                    <div class="title-container skills-title-container">
-                        <div class="icon-container">
-                            <svg width="32" height="30" class="icon">
-                                <use href="./svg/symbol-defs.svg#icon-skills"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title">Skills</h2>
-                    </div>
-                    <div class="skills-items-container">
-                        <ul>
-                            <li class="skils-item">
-                                <p class="skills-name">Adobe Photoshop</p>
-                                <div class="progress-bar">
-                                    <div class="bar"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </li>
-                            <li class="skils-item">
-                                <p class="skills-name">Microsoft Word</p>
-                                <div class="progress-bar">
-                                    <div class="bar"></div>
-                                    <div class="line"></div>
-                                </div>
+  <div class="left-side container">
+    <section>
+      <div class="title-container experience-title-container">
+        <div class="icon-container">
+          <svg width="32" height="32" class="icon">
+            <use href="./svg/symbol-defs.svg#icon-experience"></use>
+          </svg>
+        </div>
+        <h2 class="title">Job Experience</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000"
+             class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+      </div>
+      <ul class="to_hide">
+        <li>
+          <div class="experience-item-container">
+            <p class="experience-item-name">Senior Web Designer</p>
+            <p class="experience-item-date">2020 - Present</p>
+          </div>
+          <p class="experience-item-location">Creative Agency / Chicago</p>
+          <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s,
+            when unknown printer took a galley of type.</p>
+        </li>
+        <li>
+          <div class="experience-item-container">
+            <p class="experience-item-name">Graphic Designer</p>
+            <p class="experience-item-date">2015 - 2020</p>
+          </div>
+          <p class="experience-item-location">Creative Market / Chicago</p>
+          <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s,
+            when unknown printer took a galley of type.</p>
+        </li>
+        <li>
+          <div class="experience-item-container">
+            <p class="experience-item-name">Marketing Manager</p>
+            <p class="experience-item-date">2013 - 2015</p>
+          </div>
+          <p class="experience-item-location">Manufacturing Agency / NJ</p>
+          <p class="experience-item-text">Lorem Ipsum has been the industry's standard dummy text ever since 1500s,
+            when unknown printer took a galley of type.</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="skills-container">
+        <div class="title-container skills-title-container">
+          <div class="icon-container">
+            <svg width="32" height="32" class="icon">
+              <use href="./svg/symbol-defs.svg#icon-skills"></use>
+            </svg>
+          </div>
+          <h2 class="title">Skills</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000"
+               class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                  d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+          </svg>
+        </div>
+        <div class="skills-items-container to_hide">
+          <ul>
+            <li class="skils-item">
+              <p class="skills-name">Adobe Photoshop</p>
+              <div class="progress-bar">
+                <div class="bar"></div>
+                <div class="line"></div>
+              </div>
+            </li>
+            <li class="skils-item">
+              <p class="skills-name">Microsoft Word</p>
+              <div class="progress-bar">
+                <div class="bar"></div>
+                <div class="line"></div>
+              </div>
 
-                            </li>
-                            <li class="skils-item">
-                                <p class="skills-name">HTML-S/CSS-3</p>
-                                <div class="progress-bar">
-                                    <div class="bar"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </li class="skils-item">
-                        </ul>
-                        <ul>
-                            <li class="skils-item">
-                                <p class="skills-name">Adobe Illustrator</p>
-                                <div class="progress-bar">
-                                    <div class="bar"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </li>
-                            <li class="skils-item">
-                                <p class="skills-name">Microsoft Powerpoint</p>
-                                <div class="progress-bar">
-                                    <div class="bar"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container language-hobbies-container">
-                    <ul class="language-hobbies">
-                        <li>
-                            <div class="title-container">
-                                <div class="icon-container">
-                                    <svg width="30" height="30" class="icon">
-                                        <use href="./svg/symbol-defs.svg#icon-language"></use>
-                                    </svg>
-                                </div>
-                                <h2 class="title">Language</h2>
-                            </div>
-                            <ul class="language-list">
-                                <li>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">English</p>
-                                    </div>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">French</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">Spanish</p>
-                                    </div>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">German</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <div class="title-container">
-                                <div class="icon-container" class="icon">
-                                    <svg width="30" height="30" class="icon">
-                                        <use href="./svg/symbol-defs.svg#icon-hobbies"></use>
-                                    </svg>
-                                </div>
-                                <h2 class="title">Hobbies</h2>
-                            </div>
-                            <ul class="hobbies-list">
-                                <li>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">Reading Books</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">Traveling</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="language-list-item">
-                                        <div class="dot"></div>
-                                        <p class="language-list-item-name">Playing Chess</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            </li>
+            <li class="skils-item">
+              <p class="skills-name">HTML-S/CSS-3</p>
+              <div class="progress-bar">
+                <div class="bar"></div>
+                <div class="line"></div>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li class="skils-item">
+              <p class="skills-name">Adobe Illustrator</p>
+              <div class="progress-bar">
+                <div class="bar"></div>
+                <div class="line"></div>
+              </div>
+            </li>
+            <li class="skils-item">
+              <p class="skills-name">Microsoft Powerpoint</p>
+              <div class="progress-bar">
+                <div class="bar"></div>
+                <div class="line"></div>
+              </div>
+            </li>
+          </ul>
         </div>
-            <div class="right-side">
-                <div class="img-white-border"></div>
-                <div class="img-border"></div>
-                <img class="main-img" src="./images/person.png" alt="person">
-                <div class="contact-container">
-                    <div class="title-container">
-                        <div class="icon-container white">
-                            <svg width="26" height="30" class="icon primery-color" >
-                                <use href="./svg/symbol-defs.svg#icon-contact"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title right-side-title">Contact Me</h2>
-                    </div>
-                    <ul class="contact-list">
-                        <li>
-                            <div class="contact-item">
-                                <svg width="14" height="24" class="white-fill">
-                                    <use href="./svg/symbol-defs.svg#icon-tel"></use>
-                                </svg>
-                                <p class="contact-item-text">+1-718-310-5588</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="contact-item">
-                                <svg width="23" height="24" class="white-fill">
-                                    <use href="./svg/symbol-defs.svg#icon-Web"></use>
-                                </svg>
-                                <p class="contact-item-text">www.yourwebsite.com</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="contact-item">
-                                <svg width="16" height="24" class="white-fill">
-                                    <use href="./svg/symbol-defs.svg#icon-Location"></use>
-                                </svg>
-                                <p class="contact-item-text">769 PrudenceLincoln Park, MI</p>
-                            </div>
-                        </li>
-                    </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container language-hobbies-container">
+        <ul class="language-hobbies">
+          <li>
+            <div class="title-container">
+              <div class="icon-container">
+                <svg width="32" height="32" class="icon">
+                  <use href="./svg/symbol-defs.svg#icon-language"></use>
+                </svg>
+              </div>
+              <h2 class="title">Language</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000"
+                   class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+              </svg>
+            </div>
+            <ul class="language-list to_hide">
+              <li>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">English</p>
                 </div>
-                <div class="education-container">
-                    <div class="title-container">
-                        <div class="icon-container white">
-                            <svg width="39" height="23" class="icon primery-color">
-                                <use href="./svg/symbol-defs.svg#icon-education"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title right-side-title">Education</h2>
-                    </div>
-                    <ul>
-                        <li>
-                            <p class="education-item-name">Stanford University</p>
-                            <ul>
-                                <li>
-                                    <p class="education-item-text">Master Degree Graduate</p>
-                                </li>
-                                <li>
-                                    <p class="education-item-text">2011 - 2013</p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p class="education-item-name">University of Chicago</p>
-                            <ul>
-                                <li>
-                                    <p class="education-item-text">Bachelor Degree Graduate</p>
-                                </li>
-                                <li>
-                                    <p class="education-item-text">2007 - 2010</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">French</p>
                 </div>
-                <div class="reference-container">
-                    <div class="title-container">
-                        <div class="icon-container white">
-                            <svg width="40" height="28" class="icon primery-color">
-                                <use href="./svg/symbol-defs.svg#icon-reference"></use>
-                            </svg>
-                        </div>
-                        <h2 class="title right-side-title">References</h2>
-                    </div>
-                    <ul>
-                        <li>
-                            <p class="reference-item-name">Darwin B. Magana</p>
-                            <ul class="reference-item-text-list">
-                                <li>
-                                    <p class="reference-item-text">2813 Shobe Lane Mancos, CO.</p>
-                                </li>
-                                <li>
-                                    <p class="reference-item-text">Tel: +1-970-533-3393</p>
-                                </li>
-                                <li>
-                                    <p class="reference-item-text">Email: www.yourwebsite.com</p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p class="reference-item-name">Robert J. Belvin</p>
-                            <ul class="reference-item-text-list">
-                                <li>
-                                    <p class="reference-item-text">2119 Fairfax Drive Newark, NJ.</p>
-                                </li>
-                                <li>
-                                    <p class="reference-item-text">Tel: +1-908-987-5103</p>
-                                </li>
-                                <li>
-                                    <p class="reference-item-text">Email: www.yourwebsite.com</p>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+              </li>
+              <li>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">Spanish</p>
                 </div>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">German</p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="title-container">
+              <div class="icon-container">
+                <svg width="32" height="32" class="icon">
+                  <use href="./svg/symbol-defs.svg#icon-hobbies"></use>
+                </svg>
+              </div>
+              <h2 class="title">Hobbies</h2>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000"
+                   class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+              </svg>
+            </div>
+            <ul class="hobbies-list to_hide">
+              <li>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">Reading Books</p>
+                </div>
+              </li>
+              <li>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">Traveling</p>
+                </div>
+              </li>
+              <li>
+                <div class="language-list-item">
+                  <div class="dot"></div>
+                  <p class="language-list-item-name">Playing Chess</p>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <div class="right-side">
+    <img class="main-img" src="./images/person.png" alt="person">
+    <div class="contact-container">
+      <div class="title-container">
+        <div class="icon-container ">
+          <svg width="32" height="32" class="icon white primery-color">
+            <use href="./svg/symbol-defs.svg#icon-contact"></use>
+          </svg>
         </div>
+        <h2 class="title right-side-title">Contact Me</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff"
+             class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+      </div>
+      <ul class="contact-list to_hide">
+        <li>
+          <div class="contact-item">
+            <svg width="14" height="24" class="white-fill">
+              <use href="./svg/symbol-defs.svg#icon-tel"></use>
+            </svg>
+            <p class="contact-item-text">+1-718-310-5588</p>
+          </div>
+        </li>
+        <li>
+          <div class="contact-item">
+            <svg width="23" height="24" class="white-fill">
+              <use href="./svg/symbol-defs.svg#icon-Web"></use>
+            </svg>
+            <p class="contact-item-text">www.yourwebsite.com</p>
+          </div>
+        </li>
+        <li>
+          <div class="contact-item">
+            <svg width="16" height="24" class="white-fill">
+              <use href="./svg/symbol-defs.svg#icon-Location"></use>
+            </svg>
+            <p class="contact-item-text">769 PrudenceLincoln Park, MI</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="contact-container">
+      <div class="title-container">
+        <div class="icon-container ">
+          <svg width="32" height="32" class="icon white primery-color">
+            <use href="./svg/symbol-defs.svg#icon-education"></use>
+          </svg>
+        </div>
+        <h2 class="title right-side-title">Education</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff"
+             class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+      </div>
+      <ul class="to_hide">
+        <li>
+          <p class="education-item-name">Stanford University</p>
+          <ul>
+            <li>
+              <p class="education-item-text">Master Degree Graduate</p>
+            </li>
+            <li>
+              <p class="education-item-text">2011 - 2013</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p class="education-item-name">University of Chicago</p>
+          <ul>
+            <li>
+              <p class="education-item-text">Bachelor Degree Graduate</p>
+            </li>
+            <li>
+              <p class="education-item-text">2007 - 2010</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="contact-container">
+      <div class="title-container">
+        <div class="icon-container">
+          <svg width="32" height="32" class="icon white primery-color">
+            <use href="./svg/symbol-defs.svg#icon-reference"></use>
+          </svg>
+        </div>
+        <h2 class="title right-side-title">References</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff"
+             class="bi bi-chevron-up sidebar-svg show-hide-main icon-action" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+        </svg>
+      </div>
+      <ul class="to_hide">
+        <li>
+          <p class="reference-item-name">Darwin B. Magana</p>
+          <ul class="reference-item-text-list">
+            <li>
+              <p class="reference-item-text">2813 Shobe Lane Mancos, CO.</p>
+            </li>
+            <li>
+              <p class="reference-item-text">Tel: +1-970-533-3393</p>
+            </li>
+            <li>
+              <p class="reference-item-text">Email: www.yourwebsite.com</p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p class="reference-item-name">Robert J. Belvin</p>
+          <ul class="reference-item-text-list">
+            <li>
+              <p class="reference-item-text">2119 Fairfax Drive Newark, NJ.</p>
+            </li>
+            <li>
+              <p class="reference-item-text">Tel: +1-908-987-5103</p>
+            </li>
+            <li>
+              <p class="reference-item-text">Email: www.yourwebsite.com</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </main>
+<script src="./js/bundle.js"></script>
 </body>
 </html>

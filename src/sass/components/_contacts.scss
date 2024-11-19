@@ -1,28 +1,31 @@
-.contact-container{
-    margin-top: 362px;
-    padding-left: 58px;
+.contact-container {
+  padding: 12px 24px;
+
+  & > .title-container {
+    justify-content: flex-start !important;
+  }
 }
 
-.right-side-title{
-    font-size: 42px;
-text-transform: uppercase;
-color: #ffffff;
-font-weight: 800;
+.right-side-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
 }
 
-.contact-list{
-    margin-top: 30px;
+.contact-list {
+  margin-top: 30px;
 }
 
-.contact-item{
-    display: flex;
-    flex-direction: row;
-    gap: 19px;
-    margin-bottom: 11px;
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-bottom: 11px;
 }
 
-.contact-item-text{
-    font-size: 24px;
-line-height: 31px;
-color: #ffffff;
+.contact-item-text {
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
 }
